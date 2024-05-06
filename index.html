@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    a {
+      color: #00f;
+    }
+    ::selection {
+      background: #08f;
+      color: white;
+    }
+  </style>
+</head>
+<body style="max-width: 40rem; margin: 8rem auto;">
+  <h1>my music lab</h1>
+  <p>hi!!! this project is so all over the place right now it's actually kind of embarassing</p>
+  <p>This is [going to be?] a series of experiments of music in code. I've made a few projects before in tune with this idea, which are now available here:</p>
+  <ul>
+    <li><a href="progression-o-tron">astronomy487.github.io/musiclab/progression-o-tron</a> A tool to extend chord progressions using the power of graph theory and a sample bank of chord progressions. I just used a few songs from the real book because sheet music was readily available online</li>
+    <li><a href="voiceleader">astronomy487.github.io/musiclab/voiceleader</a> A tool to do 4-part voice leading, following all the silly rules they teach you about in ap music theory</li>
+  </ul>
+  <p>These projects were accomplished using some kinda janky code. I've recreated the functionality needed for these tools in my new little javascript library for interfacing with chord notation and stuff:</p>
+  <ul>
+    <li><a href="chordanalysis.js">chordanalysis.js</a> the all-important library</li>
+    <li><a href="vexflowwrite.js">vexflowwrite.js</a> a mini mini library to work with <a href="https://github.com/0xfe/vexflow">vexflow</a>, a really good library for making notation. i made this interface so i can easily write simple quarter note chords</li>
+  </ul>
+  <p>But I haven't actually recreated the PROGERSSION-O-TRON and VoiceLeader yet using this library. That's still in the work.</p>
+  <p>You can look at my silly experiments in the meantime:</p>
+  <ul>
+    <li><a href="chordidentifier">chordidentifier</a> gimme a chord name, i give you the notes it's made of</li>
+    <li><a href="vexflowwrite">vexflowwrite</a> just uses the mini mini library i created to interface with vexflow. a little experiment to throw test cases at my work<li>
+    <li><a href="voicer">voicer</a> a first draft of a way to create voice leading. actually works pretty nice, but i need to make it work more nicely with the above vex flow write mini mini library</li>
+  </ul>
+  <p>There's a lot to do! But there's plenty of time!</p>
+  <p>love music 4ever</p>
+</body>
+</html>
